@@ -155,9 +155,4 @@ func main(){
   - Cannot ternary expression like in python ???
   */
 
-
-
-
-
-
 }

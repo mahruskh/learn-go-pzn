@@ -82,6 +82,10 @@ func main(){
   firstName, lastName, length := getFirstLastName("Budi Gunawan Raharjo")
   fmt.Println(firstName, lastName, length)
 
+  // Ignore some return value
+  firstName, _, _ = getFirstLastName("Budi Gunawan Raharjo")
+  fmt.Println(firstName)
+
 
 
 
